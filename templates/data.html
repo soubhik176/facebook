@@ -1,0 +1,4 @@
+<H1>UserID | Password | Date created</H1> <br>
+{% for user in users %}
+<li style="font-size:30px"> {{user.name}} | {{user.password}} | {{user.date_created}} </li>
+{% endfor %}
